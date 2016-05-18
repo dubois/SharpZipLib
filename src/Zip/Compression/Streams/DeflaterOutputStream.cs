@@ -44,10 +44,10 @@ using System.IO;
 
 #if !NETCF_1_0
 using System.Security.Cryptography;
-using ICSharpCode.SharpZipLib.Encryption;
+using ICSharpCode.SharpZipLibUnityPort.Encryption;
 #endif
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams 
+namespace ICSharpCode.SharpZipLibUnityPort.Zip.Compression.Streams 
 {
 	/// <summary>
 	/// A special stream deflating or compressing the bytes that are

@@ -41,9 +41,9 @@
 using System;
 using System.IO;
 
-using ICSharpCode.SharpZipLib.Core;
+using ICSharpCode.SharpZipLibUnityPort.Core;
 
-namespace ICSharpCode.SharpZipLib.Zip
+namespace ICSharpCode.SharpZipLibUnityPort.Zip
 {
 	/// <summary>
 	/// Basic implementation of <see cref="IEntryFactory"></see>

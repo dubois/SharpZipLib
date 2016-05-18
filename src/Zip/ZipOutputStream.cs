@@ -46,11 +46,11 @@ using System;
 using System.IO;
 using System.Collections;
 
-using ICSharpCode.SharpZipLib.Checksums;
-using ICSharpCode.SharpZipLib.Zip.Compression;
-using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
+using ICSharpCode.SharpZipLibUnityPort.Checksums;
+using ICSharpCode.SharpZipLibUnityPort.Zip.Compression;
+using ICSharpCode.SharpZipLibUnityPort.Zip.Compression.Streams;
 
-namespace ICSharpCode.SharpZipLib.Zip
+namespace ICSharpCode.SharpZipLibUnityPort.Zip
 {
 	/// <summary>
 	/// This is a DeflaterOutputStream that writes the files into a zip
@@ -68,8 +68,8 @@ namespace ICSharpCode.SharpZipLib.Zip
 	/// using System;
 	/// using System.IO;
 	/// 
-	/// using ICSharpCode.SharpZipLib.Core;
-	/// using ICSharpCode.SharpZipLib.Zip;
+	/// using ICSharpCode.SharpZipLibUnityPort.Core;
+	/// using ICSharpCode.SharpZipLibUnityPort.Zip;
 	/// 
 	/// class MainClass
 	/// {
@@ -158,7 +158,7 @@ namespace ICSharpCode.SharpZipLib.Zip
 		/// <exception cref="ArgumentOutOfRangeException">
 		/// Level specified is not supported.
 		/// </exception>
-		/// <see cref="ICSharpCode.SharpZipLib.Zip.Compression.Deflater"/>
+		/// <see cref="ICSharpCode.SharpZipLibUnityPort.Zip.Compression.Deflater"/>
 		public void SetLevel(int level)
 		{
 			deflater_.SetLevel(level);

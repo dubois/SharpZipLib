@@ -37,7 +37,7 @@
 
 using System;
 
-namespace ICSharpCode.SharpZipLib.Checksums 
+namespace ICSharpCode.SharpZipLibUnityPort.Checksums 
 {
 	
 	/// <summary>
@@ -84,8 +84,8 @@ namespace ICSharpCode.SharpZipLib.Checksums
 	///    checked separately. (Any sequence of zeroes has a Fletcher
 	///    checksum of zero.)"
 	/// </summary>
-	/// <see cref="ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream"/>
-	/// <see cref="ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream"/>
+	/// <see cref="ICSharpCode.SharpZipLibUnityPort.Zip.Compression.Streams.InflaterInputStream"/>
+	/// <see cref="ICSharpCode.SharpZipLibUnityPort.Zip.Compression.Streams.DeflaterOutputStream"/>
 	public sealed class Adler32 : IChecksum
 	{
 		/// <summary>

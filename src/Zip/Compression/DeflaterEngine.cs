@@ -39,9 +39,9 @@
 
 using System;
 
-using ICSharpCode.SharpZipLib.Checksums;
+using ICSharpCode.SharpZipLibUnityPort.Checksums;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression 
+namespace ICSharpCode.SharpZipLibUnityPort.Zip.Compression 
 {
 	
 	/// <summary>

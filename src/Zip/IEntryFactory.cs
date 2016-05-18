@@ -38,9 +38,9 @@
 // HISTORY
 //	2012-11-29	Z-1684	Added MakeFileEntry(string fileName, string entryName, bool useFileSystem)
 
-using ICSharpCode.SharpZipLib.Core;
+using ICSharpCode.SharpZipLibUnityPort.Core;
 
-namespace ICSharpCode.SharpZipLib.Zip
+namespace ICSharpCode.SharpZipLibUnityPort.Zip
 {
 	/// <summary>
 	/// Defines factory methods for creating new <see cref="ZipEntry"></see> values.

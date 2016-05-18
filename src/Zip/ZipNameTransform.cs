@@ -38,9 +38,9 @@ using System;
 using System.IO;
 using System.Text;
 
-using ICSharpCode.SharpZipLib.Core;
+using ICSharpCode.SharpZipLibUnityPort.Core;
 
-namespace ICSharpCode.SharpZipLib.Zip
+namespace ICSharpCode.SharpZipLibUnityPort.Zip
 {
 	/// <summary>
 	/// ZipNameTransform transforms names as per the Zip file naming convention.

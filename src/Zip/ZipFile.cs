@@ -51,15 +51,15 @@ using System.Globalization;
 
 #if !NETCF_1_0
 using System.Security.Cryptography;
-using ICSharpCode.SharpZipLib.Encryption;
+using ICSharpCode.SharpZipLibUnityPort.Encryption;
 #endif
 
-using ICSharpCode.SharpZipLib.Core;
-using ICSharpCode.SharpZipLib.Checksums;
-using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
-using ICSharpCode.SharpZipLib.Zip.Compression;
+using ICSharpCode.SharpZipLibUnityPort.Core;
+using ICSharpCode.SharpZipLibUnityPort.Checksums;
+using ICSharpCode.SharpZipLibUnityPort.Zip.Compression.Streams;
+using ICSharpCode.SharpZipLibUnityPort.Zip.Compression;
 
-namespace ICSharpCode.SharpZipLib.Zip 
+namespace ICSharpCode.SharpZipLibUnityPort.Zip 
 {
 	#region Keys Required Event Args
 	/// <summary>
@@ -316,7 +316,7 @@ namespace ICSharpCode.SharpZipLib.Zip
 	/// using System.Collections;
 	/// using System.IO;
 	/// 
-	/// using ICSharpCode.SharpZipLib.Zip;
+	/// using ICSharpCode.SharpZipLibUnityPort.Zip;
 	/// 
 	/// class MainClass
 	/// {
@@ -762,7 +762,7 @@ namespace ICSharpCode.SharpZipLib.Zip
 		/// <exception cref="ObjectDisposedException">
 		/// The ZipFile has already been closed
 		/// </exception>
-		/// <exception cref="ICSharpCode.SharpZipLib.Zip.ZipException">
+		/// <exception cref="ICSharpCode.SharpZipLibUnityPort.Zip.ZipException">
 		/// The compression method for the entry is unknown
 		/// </exception>
 		/// <exception cref="IndexOutOfRangeException">
@@ -798,7 +798,7 @@ namespace ICSharpCode.SharpZipLib.Zip
 		/// <exception cref="ObjectDisposedException">
 		/// The ZipFile has already been closed
 		/// </exception>
-		/// <exception cref="ICSharpCode.SharpZipLib.Zip.ZipException">
+		/// <exception cref="ICSharpCode.SharpZipLibUnityPort.Zip.ZipException">
 		/// The compression method for the entry is unknown
 		/// </exception>
 		/// <exception cref="IndexOutOfRangeException">
@@ -3082,7 +3082,7 @@ namespace ICSharpCode.SharpZipLib.Zip
 		/// <exception cref="System.IO.IOException">
 		/// An i/o error occurs.
 		/// </exception>
-		/// <exception cref="ICSharpCode.SharpZipLib.Zip.ZipException">
+		/// <exception cref="ICSharpCode.SharpZipLibUnityPort.Zip.ZipException">
 		/// The central directory is malformed or cannot be found
 		/// </exception>
 		void ReadEntries()
@@ -3258,7 +3258,7 @@ namespace ICSharpCode.SharpZipLib.Zip
 		/// <exception cref="System.IO.EndOfStreamException">
 		/// The stream ends prematurely
 		/// </exception>
-		/// <exception cref="ICSharpCode.SharpZipLib.Zip.ZipException">
+		/// <exception cref="ICSharpCode.SharpZipLibUnityPort.Zip.ZipException">
 		/// The local header signature is invalid, the entry and central header file name lengths are different
 		/// or the local and entry compression methods dont match
 		/// </exception>

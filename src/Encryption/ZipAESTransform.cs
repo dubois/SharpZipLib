@@ -41,7 +41,7 @@
 using System;
 using System.Security.Cryptography;
 
-namespace ICSharpCode.SharpZipLib.Encryption {
+namespace ICSharpCode.SharpZipLibUnityPort.Encryption {
 
 	/// <summary>
 	/// Transforms stream using AES in CTR mode

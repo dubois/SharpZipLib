@@ -37,9 +37,9 @@
 
 using System;
 
-using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
+using ICSharpCode.SharpZipLibUnityPort.Zip.Compression.Streams;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression 
+namespace ICSharpCode.SharpZipLibUnityPort.Zip.Compression 
 {
 	
 	class InflaterDynHeader

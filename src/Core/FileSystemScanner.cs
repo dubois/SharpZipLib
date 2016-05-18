@@ -36,7 +36,7 @@
 
 using System;
 
-namespace ICSharpCode.SharpZipLib.Core
+namespace ICSharpCode.SharpZipLibUnityPort.Core
 {
 	#region EventArgs
 	/// <summary>

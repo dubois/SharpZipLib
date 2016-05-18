@@ -43,15 +43,15 @@
 using System;
 using System.IO;
 
-using ICSharpCode.SharpZipLib.Checksums;
-using ICSharpCode.SharpZipLib.Zip.Compression;
-using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
+using ICSharpCode.SharpZipLibUnityPort.Checksums;
+using ICSharpCode.SharpZipLibUnityPort.Zip.Compression;
+using ICSharpCode.SharpZipLibUnityPort.Zip.Compression.Streams;
 
 #if !NETCF_1_0
-using ICSharpCode.SharpZipLib.Encryption;
+using ICSharpCode.SharpZipLibUnityPort.Encryption;
 #endif
 
-namespace ICSharpCode.SharpZipLib.Zip
+namespace ICSharpCode.SharpZipLibUnityPort.Zip
 {
 	/// <summary>
 	/// This is an InflaterInputStream that reads the files baseInputStream an zip archive
@@ -69,7 +69,7 @@ namespace ICSharpCode.SharpZipLib.Zip
 	/// using System.Text;
 	/// using System.IO;
 	/// 
-	/// using ICSharpCode.SharpZipLib.Zip;
+	/// using ICSharpCode.SharpZipLibUnityPort.Zip;
 	/// 
 	/// class MainClass
 	/// {

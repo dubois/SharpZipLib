@@ -41,7 +41,7 @@ using System;
 using System.IO;
 using System.Security.Cryptography;
 
-namespace ICSharpCode.SharpZipLib.Encryption {
+namespace ICSharpCode.SharpZipLibUnityPort.Encryption {
 
 	// Based on information from http://www.winzip.com/aes_info.htm
 	// and http://www.gladman.me.uk/cryptography_technology/fileencrypt/

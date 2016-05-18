@@ -37,9 +37,9 @@ using System;
 using System.IO;
 using System.Text;
 
-using ICSharpCode.SharpZipLib.Core;
+using ICSharpCode.SharpZipLibUnityPort.Core;
 
-namespace ICSharpCode.SharpZipLib.Zip
+namespace ICSharpCode.SharpZipLibUnityPort.Zip
 {
 	/// <summary>
 	/// WindowsNameTransform transforms <see cref="ZipFile"/> names to windows compatible ones.
